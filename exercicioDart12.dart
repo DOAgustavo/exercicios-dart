@@ -24,11 +24,15 @@ class Usuario{
     var senha = "senha1";
 
     if(this.usuario == usuario && this.senha == senha){
+      
       Casa casa = Casa();
-    casa.abrirCasa();
+      casa.abrirCasa();
       print("usuario autenticado!");
+      
     }else{
+      
       print("usuario incorreto");
+      
     }
   }
 }
